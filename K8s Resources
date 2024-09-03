@@ -1,5 +1,0 @@
-This is part of an online lab to deploy several Kubernetes resources using Terraform. 
-The requested task is the below:
-1. Install the required version of terraform.
-2. Configuring provider.tf with the requested provider (k8s) and requested version
-3. Create the K8s deployment resource
