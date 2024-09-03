@@ -1,5 +1,11 @@
 A part of an online lab it was required to implement a simple EC2 instance with some preinstalled packages.
-1. create variables.tf
+1. Declare variables
+  Requirments:
+  AMI: ami-06178cf087598769c, use variable named ami
+  Region: eu-west-2, use variable named region
+  Instance Type: m5.large, use variable named instance_type
+  Elastic IP address attached to the EC2 instance
+
 2. Creating aws key
   Requirements:
   Create a terraform key-pair citadel-key with key_name citadel.
