@@ -1,5 +1,3 @@
-provider.tf: 
-controlplane ~/terraform_challenge ➜  cat provider.tf
 terraform {
   required_providers {
 	kubernetes = {
